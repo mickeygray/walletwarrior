@@ -1,0 +1,411 @@
+[
+    {
+      "state": "Alaska",
+      "agency": "Tax Division",
+      "phone": "(907) 465-2320",
+      "website": "https://www.tax.alaska.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ak-largeflag.png",
+      "abbv":"AK"
+    },
+    {
+      "state": "Alabama",
+      "agency": "Department of Revenue",
+      "phone": "(334) 242-1170",
+      "website": "https://revenue.alabama.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/al-largeflag.png",
+      "abbv":"AL"
+    },
+    {
+      "state": "Arizona",
+      "agency": "Department of Revenue",
+      "phone": "(501) 682-5000",
+      "website": "https://www.dfa.arkansas.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/az-largeflag.png",
+      "abbv":"AZ"
+    },
+    {
+      "state": "Arkansas",
+      "agency": "Department of Revenue",
+      "phone": "(602) 542-5551",
+      "website": "https://www.azdor.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ar-largeflag.png",
+      "abbv":"AR"
+    },
+    {
+      "state": "California",
+      "agency": "Franchise Tax Board",
+      "phone": "(888) 435 4990",
+      "website": "https://dof.ca.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ca-largeflag.png",
+      "abbv":"CA"
+    },
+    {
+      "state": "Colorado",
+      "agency": "Department of Revenue",
+      "phone": "(303) 205-8291",
+      "website": "https://www.colorado.gov/tax",
+      "flag": "https://www.50states.com/images/redesign/flags/co-largeflag.png",
+      "abbv":"CO"
+    },
+    {
+      "state": "Connecticut",
+      "agency": "Department of Revenue Services",
+      "phone": "(860) 297-4936",
+      "website": "https://portal.ct.gov/DRS",
+      "flag": "https://www.50states.com/images/redesign/flags/ct-largeflag.png",
+      "abbv":"CT"
+    },
+    {
+      "state": "District of Columbia",
+      "agency": "Office of the Chief Financial Officer",
+      "phone": "(202) 727-4829",
+      "website": "https://cfo.dc.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/dc-largeflag.png",
+      "abbv":"DC"
+    },
+    {
+      "state": "Delaware",
+      "agency": "Department of Revenue",
+      "phone": "(302) 577-8585",
+      "website": "https://revenue.delaware.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/de-largeflag.png",
+      "abbv":"DE"
+    },    
+    {
+      "state": "Florida",
+      "agency": "Department Of Revenue",
+      "phone": "(850) 488-6800",
+      "website": "https://floridarevenue.com",
+      "flag": "https://www.50states.com/images/redesign/flags/fl-largeflag.png",
+      "abbv":"GA"
+    },
+    {
+      "state": "Georgia",
+      "agency": "Department of Revenue",
+      "phone": "(800) 719 9924",
+      "website": "https://dor.georgia.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ga-largeflag.png",
+      "abbv":"GA"
+    },
+    {
+      "state": "Hawaii",
+      "agency": "Department of Revenue",
+      "phone": "(808) 587-1600",
+      "website": "https://tax.hawaii.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/hi-largeflag.png",
+      "abbv":"HI"
+    },
+    {
+      "state": "Idaho",
+      "agency": "State Tax Commission",
+      "phone": "(208) 334-7660",
+      "website": "https://tax.idaho.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/id-largeflag.png",
+      "abbv":"ID"
+    },
+    {
+      "state": "Illinois",
+      "agency": "Department of Revenue",
+      "phone": "(217) 785-2698",
+      "website": "https://www2.illinois.gov/rev/",
+      "flag": "https://www.50states.com/images/redesign/flags/il-largeflag.png",
+      "abbv":"IL"
+    },
+    {
+      "state": "Indiana",
+      "agency": "Department of Revenue",
+      "phone": "(317) 232-4692",
+      "website": "http://indiana.gov/dor/",
+      "flag": "https://www.50states.com/images/redesign/flags/in-largeflag.png",
+      "abbv":"IN"
+    }, 
+    {
+      "state": "Iowa",
+      "agency": "Department of Revenue",
+      "phone": "(515) 281-3114",
+      "website": "https://tax.iowa.gov",
+      "flag": "https://www.50states.com/images/redesign/flags/in-largeflag.png",
+      "abbv":"IA"
+    },
+
+    {
+      "state": "Kansas",
+      "agency": "Department of Revenue",
+      "phone": "(877) 247-4088",
+      "website": "https://www.ksrevenue.org/",
+      "flag": "https://www.50states.com/images/redesign/flags/ks-largeflag.png",
+      "abbv":"KA"
+    },
+    {
+      "state": "Kentucky",
+      "agency": "Department of Revenue",
+      "phone": "(502) 564-4921 - EXT. 5354",
+      "website": "https://revenue.ky.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ky-largeflag.png",
+      "abbv":"KY"
+    },
+    {
+      "state": "Louisiana",
+      "agency": "Department of Revenue",
+      "phone": "(855) 307-3893",
+      "website": "https://revenue.louisiana.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/la-largeflag.png",
+      "abbv":"LA"
+    },
+    {
+      "state": "Massachusetts",
+      "agency": "Department of Revenue",
+      "phone": "(617) 887-6400",
+      "website": "https://www.mass.gov/orgs/massachusetts-department-of-revenue",
+      "flag": "https://www.50states.com/images/redesign/flags/ma-largeflag.png",
+      "abbv":"MA"
+    },
+    {
+      "state": "Maryland",
+      "agency": "Comptroller of Maryland",
+      "phone": "(202) 727-4829",
+      "website": "https://www.marylandtaxes.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/md-largeflag.png",
+      "abbv":"MD"
+    },
+    {
+      "state": "Maine",
+      "agency": "Revenue Services",
+      "phone": "(207) 626-8475",
+      "website": "https://www.maine.gov/revenue/",
+      "flag": "https://www.50states.com/images/redesign/flags/me-largeflag.png",
+      "abbv":"ME"
+    },
+    {
+      "state": "Michigan",
+      "agency": "Department of Treasury",
+      "phone": "(866) 218 7224",
+      "website": "https://www.michigan.gov/treasury",
+      "flag": "https://www.50states.com/images/redesign/flags/mi-largeflag.png",
+      "abbv":"MI"
+    },
+    {
+      "state": "Minnesota",
+      "agency": "Department of Revenue",
+      "phone": "651-556-3003",
+      "website": "https://www.revenue.state.mn.us/",
+      "flag": "https://www.50states.com/images/redesign/flags/mn-largeflag.png",
+      "abbv":"MN"
+    },
+    {
+      "state": "Missouri",
+      "agency": "Department of Revenue",
+      "phone": "(573) 751-4450",
+      "website": "https://dor.mo.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/mo-largeflag.png",
+      "abbv":"MO"
+    },
+    {
+      "state": "Montana",
+      "agency": "Department of Revenue",
+      "phone": "(406) 444-6900",
+      "website": "https://mtrevenue.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/mt-largeflag.png",
+      "abbv":"MT"
+    },
+    {
+      "state": "North Carolina",
+      "agency": "Department of Revenue",
+      "phone": "(704) 519 3000",
+      "website": "https://www.ncdor.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/nc-largeflag.png",
+      "abbv":"NC"
+    },
+    {
+      "state": "North Dakota",
+      "agency": "Office of the State Tax Commissioner",
+      "phone": "(701) 328-7088",
+      "website": "https://www.nd.gov/tax/",
+      "flag": "https://www.50states.com/images/redesign/flags/nd-largeflag.png",
+      "abbv":"ND"
+    },
+    {
+      "state": "Nebraska",
+      "agency": "Department of Revenue",
+      "phone": "(402) 471-5729",
+      "website": "https://revenue.nebraska.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ne-largeflag.png",
+      "abbv":"NE"
+    },
+    {
+      "state": "New Jersey",
+      "agency": "Department of Revenue",
+      "phone": "(609) 292 6400",
+      "website": "https://www.state.nj.us/treasury/taxation/",
+      "flag": "https://www.50states.com/images/redesign/flags/nj-largeflag.png",
+      "abbv":"NJ"
+    },
+    {
+      "state": "New Mexico",
+      "agency": "Department of Revenue",
+      "phone": "(505) 841-6200",
+      "website": "https://tax.newmexico.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/nm-largeflag.png",
+      "abbv":"NM"
+    },
+    {
+      "state": "Nevada",
+      "agency": "Department of Revenue",
+      "phone": "(702) 486-2300",
+      "website": "https://tax.nv.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/nv-largeflag.png",
+      "abbv":"NV"
+    },
+    {
+      "state": "New York",
+      "agency": "Department of Revenue",
+      "phone": "(518) 591-5000",
+      "website": "https://tax.ny.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ny-largeflag.png",
+      "abbv":"NY"
+    },
+    {
+      "state": "Ohio",
+      "agency": "Department of Taxasion",
+      "phone": "(330) 762-2411",
+      "website": "https://tax.ohio.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/oh-largeflag.png",
+      "abbv":"OH"
+    },
+    {
+      "state": "Oklahoma",
+      "agency": "Department of Revenue",
+      "phone": "(405) 521-2212",
+      "website": "https://www.ok.gov/tax",
+      "flag": "https://www.50states.com/images/redesign/flags/ok-largeflag.png",
+      "abbv":"OK"
+    },
+    {
+      "state": "Pennsylvania",
+      "agency": "Department of Revenue",
+      "phone": "(717) 783-3000",
+      "website": "https://www.revenue.pa.gov/Pages/default.aspx",
+      "flag": "https://www.50states.com/images/redesign/flags/pa-largeflag.png",
+      "abbv":"PA"
+    },
+    {
+      "state": "Rhode Island",
+      "agency": "Department of Revenue",
+      "phone": "(401) 574-8941",
+      "website": "https://tax.ri.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ri-largeflag.png",
+      "abbv":"RI"
+    },
+    {
+      "state": "South Carolina",
+      "agency": "Department of Revenue",
+      "phone": "(844) 898-8542",
+      "website": "https://dor.sc.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/sc-largeflag.png",
+      "abbv":"SC"
+    },
+    {
+      "state": "South Dakota",
+      "agency": "Department of Revenue",
+      "phone": "(605) 773-3311",
+      "website": "https://dor.sd.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/sd-largeflag.png",
+      "abbv":"SD"
+    },
+    {
+      "state": "Texas",
+      "agency": "Department of Revenue",
+      "phone": "(800) 252-5555",
+      "website": "https://comptroller.texas.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/tx-largeflag.png",
+      "abbv":"TX"
+    },
+    {
+      "state": "New Hampshire",
+      "agency": "Department of Revenue Admininstration",
+      "phone": "(800) 252-5555",
+      "website": "https://www.revenue.nh.gov",
+      "flag": "https://www.50states.com/images/redesign/flags/nh-largeflag.png",
+      "abbv":"NH"
+    },
+    {
+      "state": "Vermont",
+      "agency": "Department of Taxes",
+      "phone": "(802) 828-2505",
+      "website": "https://tax.vermont.gov",
+      "flag": "https://www.50states.com/images/redesign/flags/vt-largeflag.png",
+      "abbv":"VT"
+    },
+    {
+      "state": "Oregon",
+      "agency": "Department of Revenue",
+      "phone": "(503) 378-4988",
+      "website": "https://www.revenue.nh.gov",
+      "flag": "https://www.50states.com/images/redesign/flags/or-largeflag.png",
+      "abbv":"OR"
+    },
+    {
+      "state": "Utah",
+      "agency": "Department of Revenue",
+      "phone": "(801) 297-2200",
+      "website": "https://tax.utah.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ut-largeflag.png",
+      "abbv":"UT"
+    },
+    {
+      "state": "Virginia",
+      "agency": "Department of Taxation",
+      "phone": "(804) 367-8045",
+      "website": "https://tax.virginia.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/va-largeflag.png",
+      "abbv":"VA"
+    },
+    {
+      "state": "Washington",
+      "agency": "Department of Revenue",
+      "phone": "(800) 647-7706",
+      "website": "https://dor.wa.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/wa-largeflag.png",
+      "abbv":"WA"
+    },
+    {
+      "state": "Wisconsin",
+      "agency": "Department of Revenue",
+      "phone": "(608) 266-7879",
+      "website": "https://www.revenue.wi.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/wi-largeflag.png",
+      "abbv":"WI"
+    },
+    {
+      "state": "West Virginia",
+      "agency": "Department of Revenue",
+      "phone": "(304) 558-8753",
+      "website": "https://revenue.wv.gov/Pages/default.aspx",
+      "flag": "https://www.50states.com/images/redesign/flags/wv-largeflag.png",
+      "abbv":"WV"
+    },
+    {
+      "state": "Wyoming",
+      "agency": "Department of Revenue",
+      "phone": "(307) 777-5200",
+      "website": "revenue.wyo.gov",
+      "flag": "https://www.50states.com/images/redesign/flags/wy-largeflag.png",
+      "abbv":"WY"
+    },
+    {
+      "state": "Mississippi",
+      "agency": "Department of Revenue",
+      "phone": "(601) 923 7700",
+      "website": "https://dor.ms.gov/",
+      "flag": "https://www.50states.com/images/redesign/flags/ms-largeflag.png",
+      "abbv":"MS"
+    },
+    {
+      "state": "Tennessee",
+      "agency": "Department of Revenue",
+      "phone": "(844) 729-8689",
+      "website": "https://www.tn.gov/revenue/",
+      "flag": "https://www.50states.com/images/redesign/flags/tn-largeflag.png",
+      "abbv":"TN"
+    }
+  ]
