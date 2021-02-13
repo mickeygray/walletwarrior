@@ -24,11 +24,6 @@ const StickyNavbar = ({ verticals }) => {
     position = window.pageYOffset;
   }
 
-  const onClick = () => {
-    if (process.browser) {
-      window.scrollTo(0, 0);
-    }
-  };
   useEffect(() => {
     if (process.browser) {
       window.addEventListener("scroll", onScroll);
