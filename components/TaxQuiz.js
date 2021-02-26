@@ -33,12 +33,19 @@ const TaxQuiz = ({ states, firms, setQuizModalState }) => {
     amount: 0,
     type: "",
     income: 0,
+    housing:0,
+    housepay:'',
+    standardallow:0, 
     employment: "",
     name: "",
     phone: "",
     email: "",
     optout: false,
   });
+
+
+
+  const estimatedoffer = (parseInt(lead.income) - (parseInt(lead.housing) + parseInt(lead.standardallow)))*18 
 
   const [infoState, setInfoState] = useState(false);
   const onChange = (e) => {
@@ -68,8 +75,11 @@ const TaxQuiz = ({ states, firms, setQuizModalState }) => {
     phone,
     email,
     optout,
+    housing,
+    housepay,
+    standardallow,  
   } = lead;
-
+console.log(lead)
   return (
     <div className='container'>
       {quizPage === 1 ? (
@@ -505,8 +515,8 @@ const TaxQuiz = ({ states, firms, setQuizModalState }) => {
             <button
               onClick={() => setQuizPage(quizPage + 1)}
               className=' py-3 btn btn-primary text-center btn-block'>
-              Last Step
-            </button>
+              Next
+	      </button>
           </div>
         </div>
       ) : (
@@ -514,6 +524,54 @@ const TaxQuiz = ({ states, firms, setQuizModalState }) => {
       )}
 
       {quizPage === 7 ? (
+        <div>
+	<div className='grid-2'>
+	<div className='card'>
+	  <label htmlFor='housing'>How much do you pay for housing every month?</label>
+            <input
+              type='text'
+              name='housing'
+              value={housing}
+              onChange={onChange}
+            />
+         
+            <label htmlFor='housepay'>Do you rent or own?</label>
+            <select name='housepay' onChange={onChange}>
+            <option value='rent'>I rent</option>
+            <option value='own49'>I have paid less than half of my mortgage</option>
+            <option value='own51'>I have paid more than half of my mortgage</option>
+	    <option value='own100'>I own my home outright</option>
+  
+            
+            </select>
+
+           <label htmlFor='standardallow'>How many people live with you?</label>
+	    <select name='standardallow' onChange={onChange}>
+	    <option value='715'>1</option> 
+	    <option value='1298'>2</option> 
+	    <option value='1433'>3</option>
+            <option value='1740'>4</option>
+            <option value='2118'>5 or more</option>
+	    </select>	
+
+	 </div>
+	 <div className='card'> 
+	 <FirmItem firms={firms} />
+	  </div>     
+	</div>
+	       <div>
+            <button
+              onClick={() => setQuizPage(quizPage + 1)}
+              className=' py-3 btn btn-primary text-center btn-block'>
+              Next
+              </button>
+          </div>
+      </div>):''
+	      
+      
+      }	  
+
+      {quizPage === 8 ? (
         <div className='grid-2'>
           <div className='card'>
             {infoState === false ? (
@@ -605,20 +663,17 @@ const TaxQuiz = ({ states, firms, setQuizModalState }) => {
         ""
       )}
 
-      {quizPage === 8 ? (
+      {quizPage === 9 ? (
         <div className='card all-center'>
           <div className='grid-2'>
             <div className='text-center'>
-              {lead.income > 0 && lead.income < 2000 ? (
+              {parseFloat(estimatedoffer) < (parseInt(lead.amount) * .75) ? (
                 <h3>
-                  You probably qualify for a hardship based tax relief and can
-                  contact the taxing authorities directly, please call{" "}
-                  <a href='tel:+8008291040'>The IRS</a>
+                  You probably qualify for an offer in compromise and would roughly expect to pay ${estimatedoffer}
                 </h3>
               ) : (
                 <h3>
-                  You probably qualify for tax relief, but you should seek legal
-                  representation to protect your assets.
+                  You may not be able to settle with an Offer in Compromise because of your assets, there may be other options to help you save.
                 </h3>
               )}
             </div>

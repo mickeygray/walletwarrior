@@ -1,8 +1,8 @@
-import StickyNavbar from "../../components/StickyNavbar";
-const index = ({ verticals }) => {
+
+const index = () => {
   return (
     <div>
-      <StickyNavbar verticals={verticals} />
+      
       hi
     </div>
   );

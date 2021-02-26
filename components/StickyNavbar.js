@@ -82,9 +82,9 @@ const StickyNavbar = ({ verticals }) => {
         <div className='py-2 p-1'>
           <ul>
             {verticals.map((vertical) => (
-              <li
-                key={vertical.key}
-                onClick={() => {
+              <li key={vertical.key}>
+               
+	      <button  onClick={() => {
                   router.push({
                     pathname: `/vertical/${vertical.key}`,
                     query: { data: vertical.key },
@@ -94,9 +94,7 @@ const StickyNavbar = ({ verticals }) => {
                     time: `${new Date().getTime()}`,
                     btn: "clicked navbar link",
                   });
-                }}
-                onClick={() => {}}>
-                <button className='btn btn-primary'>{vertical.navtext}</button>
+                }}  className='btn btn-primary'>{vertical.navtext}</button>
               </li>
             ))}
           </ul>
